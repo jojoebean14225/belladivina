@@ -1,0 +1,84 @@
+.massagemenu{
+	padding-left:50px;
+	padding-bottom:10px;
+	border-bottom:1px solid#aaaaaa;
+}
+
+.massageitem{
+	display:inline-block;
+	margin-right:10px;
+	margin-bottom:10px;
+	height:40px;
+	background-color:#333333;
+}
+
+.massageitem:hover{
+	cursor:pointer;
+	background-color: #E68A2E;
+}
+
+.massageitem:hover .massagetext{
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.massagetext{
+	margin:0;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:10px;
+	color:#FFFFFF;
+}
+
+.massageinfo{
+	padding-top:20px;
+}
+
+.flexslider{
+	width:500px;
+}
+
+.flex-container{
+	margin-left:50px;
+}
+
+#edelsteenslider{
+	width:250px;
+}
+
+#zwangerschapslider{
+	width:250px;
+}
+
+#kruidenstempelslider{
+	width:250px;
+}
+
+#aromaslider{
+	width:250px;
+}
+
+.pictureright{
+	margin:10px;
+	float:right;
+}
+
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  { outline: none; }
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.flexslider a img { outline: none; border: none; }
+
+.flexslider {
+    margin: 0;
+    padding: 0;
+}

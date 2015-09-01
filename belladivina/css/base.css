@@ -1,0 +1,165 @@
+/*Browser reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+
+/* background color: #ece5ce */
+/*¨text color: #694538 */
+#logo{
+	float:left;
+}
+header{
+	margin-top:30px;
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:40px;
+}
+
+body{
+	color: #333333;
+	font-family: "Source Sans Pro", sans-serif;
+	background-image: url("../images/body_background.png");
+}
+
+hr{
+	color:#aaaaaa;
+	background-color:#aaaaaa;
+}
+
+.main{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+}
+
+.round{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+
+p{
+	padding-left:50px;
+	padding-right:50px;
+	margin-bottom:1em;
+}
+
+div h1,h2, h3, h4, h5, h6{
+	padding-left:50px;
+	margin-bottom:20px;
+}
+
+header h1{
+	padding-top:10px;
+	padding-left:123px;
+}
+
+.w50{
+	width:45%;
+}
+
+.w30{
+	width:30%;
+}
+
+a{
+	text-decoration:none;
+}
+
+a:link{
+	color:#E68A2E;
+}
+
+a:visited{
+	color:#E68A2E;
+	font-style:none;
+}
+
+a:hover{
+	font-weight:bold;
+}
+
+a:active{
+	text-decoration: underline;
+}
+
+
+nav{
+	margin-top:0px;
+	margin-left:10px;
+	padding-left:50px;
+	margin-bottom:10px;
+	border-bottom:1px solid#aaaaaa;
+}
+
+
+nav ul li{
+	margin-left:10px;
+	list-style-type: none;
+	display:inline;
+	margin-right:20px;
+}
+
+
+nav ul li a{
+	text-decoration:none;
+}
+
+nav ul li a:link{
+	color: #333333;
+	font-style:none;
+}
+
+nav ul li a:visited{
+	color: #333333;
+	font-style:none;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+nav ul li a:active {
+    text-decoration: underline;
+}
+
+
+article{
+	margin-top:25px;
+	padding-top:25px;
+	padding-bottom:25px;
+}
+
+div li{
+	margin:0;
+	padding:0;
+	margin-left:75px;
+}
+
+.invisible{
+	display:none;
+}
+
+.inline{
+	display:inline-block;
+	vertical-align: top;
+}
